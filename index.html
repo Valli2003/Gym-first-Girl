@@ -5,7 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Here, I used the FontAwesome website to get an icon for the search button-->
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Here, We used the FontAwesome website to get an icon for the search button-->
     <script
       src="https://kit.fontawesome.com/c8dc2eca00.js"
       crossorigin="anonymous"
@@ -19,23 +34,21 @@
       crossorigin="anonymous"
     />
 
-    <!--This is my own stylesheet link-->
-    <link rel="stylesheet" href="styles.css" />
+    <!--This is our own stylesheet link-->
+    <link rel="stylesheet" href="src/styles.css" />
 
     <title>Gym First Girls</title>
   </head>
 
   <body>
-    <!--Line 30-82 is from Bootstrap's Navbar link-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
-            src="CFGGFG.png"
+            src="media/ourlogo.png"
             alt="Logo"
             class="logo d-inline-block align-text-top"
           />
-          Gym First Girls
         </a>
         <button
           class="navbar-toggler"
@@ -51,16 +64,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="index2.html" target="_blank"
+                >About Us</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Community</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -70,7 +84,7 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn" type="submit">
               <i
                 class="fa-solid fa-magnifying-glass"
                 style="color: #000000"
@@ -81,9 +95,21 @@
       </div>
     </nav>
 
-    <!--The video on the homepage-->
-    <video autoplay muted loop id="myVideo">
-      <source src="gymhomevideo.mp4" type="video/mp4" />
-    </video>
+    <div class="body-content">
+      <video autoplay muted loop id="myVideo">
+        <source src="media/homepagevideo.mp4" type="video/mp4" />
+      </video>
+
+      <div class="homepage-text">
+        <h1 class="heading-text">
+          Welcome to <span class="styled-text">Gym First Girls</span> <br />
+          <span class="subheading"
+            >A women-only fitness facility for all your needs</span
+          >
+        </h1>
+        <button class="join-now" id="join-button">Join Now!</button>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

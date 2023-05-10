@@ -1,0 +1,100 @@
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-item {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.logo {
+  width: 210px;
+}
+
+.container-fluid {
+  position: fixed;
+  top: 0;
+  padding: 30px;
+  background-color: #c77dff;
+}
+
+.body-content {
+  margin-top: 60px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.heading-text {
+  color: white;
+  font-size: 68px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  top: 30vh;
+}
+
+.subheading {
+  font-size: 28px;
+  font-style: italic;
+}
+
+.styled-text {
+  font-family: "Darumadrop One", cursive;
+  font-size: 80px;
+}
+
+.join-button {
+  position: relative;
+  bottom: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.join-now {
+  align-items: center;
+  background-color: #c77dff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(75, 75, 75, 0.4) 0 2px 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  position: relative;
+  top: 35vh;
+  left: 45%;
+  transition: ease-in-out 200ms all;
+}
+
+.join-now:hover {
+  background-color: rgb(14, 2, 14);
+  transform: scale(1.2);
+}

@@ -23,13 +23,7 @@
 }
 
 body {
-  background: rgb(64, 0, 34);
-  background: linear-gradient(
-    0deg,
-    rgba(64, 0, 34, 1) 0%,
-    rgba(90, 52, 103, 1) 100%
-  );
-  color: beige;
+  color: black;
 }
 
 .body-content {
@@ -55,16 +49,7 @@ body {
   align-items: center;
 }
 
-.styled-text {
-  font-family: "Darumadrop One", cursive;
-  font-size: 60px;
-}
-
 .sec-sub-text {
   font-size: 16px;
   font-family: "Nunito", sans-serif;
-}
-
-.about-us-img {
-  width: 60px;
 }

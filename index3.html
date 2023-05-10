@@ -35,9 +35,9 @@
     />
 
     <!--This is our own stylesheet link-->
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/styles3.css" />
 
-    <title>Gym First Girls</title>
+    <title>Classes</title>
   </head>
 
   <body>
@@ -64,15 +64,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index2.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index3.html">Classes</a>
+              <a class="nav-link active" href="index3.html">Classes</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -93,21 +91,45 @@
       </div>
     </nav>
 
-    <div class="body-content">
-      <video autoplay muted loop id="myVideo">
-        <source src="media/homepagevideo.mp4" type="video/mp4" />
-      </video>
-
-      <div class="homepage-text">
-        <h1 class="heading-text">
-          Welcome to <span class="styled-text">Gym First Girls</span> <br />
-          <span class="subheading"
-            >A women-only fitness facility for all your needs</span
-          >
-        </h1>
-        <button class="join-now" id="join-button">Join Now!</button>
+    <div class="imgs">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="media/yoga.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Yoga</h5>
+                <p class="card-text">Enjoy our relaxing Yoga classes</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="media/zumba.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Zumba</h5>
+                <p class="card-text">
+                  Get your cardio fit with our Zumba classes
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="media/pilates.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pilates</h5>
+                <p class="card-text">
+                  Stretch your muscles with our Pilates classes
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="src/index.js"></script>
   </body>
 </html>
